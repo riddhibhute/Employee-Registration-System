@@ -1,0 +1,177 @@
+
+
+
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #debac9; /* Pastel purple background color */
+    color: #333337; /* Black text color */
+}
+
+.container {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column; /* Align items vertically in the center */
+}
+
+.table-container {
+    width: 100%;
+    max-width: 1200px; /* Set maximum width for the table container */
+    overflow-x: auto; /* Enable horizontal scrolling for smaller screens */
+    margin: 20px 0; /* Add margin to the table container */
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+th, td {
+    padding: 10px;
+    border: 1px solid #ddd;
+    text-align: left;
+}
+
+th {
+    background-color: #f2f2f2;
+}
+
+tbody tr:nth-child(even) {
+    background-color: #f9f9f9;
+}
+
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #debac9; /* Pastel purple background color */
+    color: #333337; /* Black text color */
+}
+.register-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column; /* Align items vertically in the center */
+    height: 100vh; /* Set container height to viewport height */
+    background-color: #debac9; /* Pastel blue background color */
+    color: #000000; /* Text color on blue background */
+}
+
+.register-container h2 {
+    margin-bottom: 20px; /* Add spacing below heading */
+}
+
+form {
+    width: 400px; /* Set form width */
+    padding: 20px;
+    border: 2px solid #fff; /* Add border */
+    border-radius: 10px; /* Add border radius for rounded corners */
+    background-color: #97397b; /* Set background color to pastel blue */
+}
+
+label {
+    display: block;
+    margin-bottom: 5px; /* Add spacing below label */
+    color: #ffffff; /* Set text color to white */
+}
+
+input[type="text"],
+input[type="password"],
+select {
+    width: calc(100% - 22px); /* Set input width */
+    padding: 10px;
+    margin-bottom: 10px; /* Add spacing below input */
+    border: none;
+    border-radius: 5px; /* Add border radius for rounded corners */
+    background-color: #ffffff; /* Set background color to pastel blue */
+    color: #000000; /* Set text color to white */
+}
+
+button[type="submit"] {
+    width: calc(100% - 22px); /* Set button width */
+    padding: 10px;
+    border: none;
+    border-radius: 5px; /* Add border radius for rounded corners */
+    background-color: #8e8289; /* Set background color to dark blue */
+    color: #fff; /* Set text color to white */
+    cursor: pointer;
+    transition: background-color 0.3s; /* Add transition effect */
+}
+
+button[type="submit"]:hover {
+    background-color: #400040; /* Change background color on hover */
+}
+
+a {
+    color: #790933; /* Set link color to blue */
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline; /* Underline link on hover */
+}
+
+
+.login-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column; /* Align items vertically in the center */
+    height: 100vh; /* Set container height to viewport height */
+    background-color: #debac9; /* Primary blue color */
+    color: #fff; /* Text color on blue background */
+}
+
+.login-container form {
+    width: 400px; /* Set form width */
+    padding: 20px;
+    border: 1px solid #ccc; /* Add border */
+    border-radius: 10px; /* Add border radius for rounded corners */
+    background-color: #97397b; /* Set background color to pastel blue */
+}
+
+.login-container label {
+    display: block;
+    margin-bottom: 5px; /* Add spacing below label */
+    color: #fff; /* Set text color to white */
+}
+
+.login-container input[type="text"],
+.login-container input[type="password"] {
+    width: calc(100% - 22px); /* Set input width */
+    padding: 10px;
+    margin-bottom: 10px; /* Add spacing below input */
+    border: none;
+    border-radius: 5px; /* Add border radius for rounded corners */
+    background-color: #ffffff; /* Set background color to pastel blue */
+    color: #000000; /* Set text color to black */
+}
+
+.login-container button[type="submit"] {
+    width: calc(100% - 22px); /* Set button width */
+    padding: 10px;
+    border: none;
+    border-radius: 5px; /* Add border radius for rounded corners */
+    background-color: #8e8289; /* Set background color to dark blue */
+    color: #ffffff; /* Set text color to white */
+    cursor: pointer;
+    transition: background-color 0.3s; /* Add transition effect */
+}
+
+.login-container button[type="submit"]:hover {
+    background-color: #400040; /* Change background color on hover */
+}
+
+.login-container a {
+    color: #400040; /* Set link color to blue */
+    text-decoration: none;
+}
+
+.login-container a:hover {
+    text-decoration: underline; /* Underline link on hover */
+}
